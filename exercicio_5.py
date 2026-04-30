@@ -63,9 +63,9 @@ if qual_cromossomo == "chr17":
     
     if qual_genoma == "hg19":
         if 41196312 <= qual_posição <= 41277500:
-                   print("Sim")
+            pass
         else:
-            print("Não é o gene BRCA1")
+            print("Sim é o gene BRCA1")
             
     elif qual_genoma == "hg38":
         if 43044295 <= qual_posição <= 43125483:
