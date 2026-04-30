@@ -55,7 +55,6 @@ Resposta:
 Não
 
 """
-
 qual_cromossomo = str(input("Insira o nº do cromossomo: "))
 qual_genoma = str(input("Insira o genoma de referência: "))
 qual_posição = int(input("Insira a posição genômica: "))
@@ -78,4 +77,4 @@ if qual_cromossomo == "chr17":
         print("Genoma não reconhecido")
 
 else:
-    print("Este não é o gene BRCA1") 
+    print("Este não é o gene BRCA1")
