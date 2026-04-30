@@ -29,6 +29,14 @@ Digite a posição: 99
 Resposta:
 Não
 
+qual_cromossomo = str(input("Insira o nº do cromossomo: "))
+qual_posição = int(input("Insira a posição genômica: "))
+
+if (qual_cromossomo == "chr17" or qual_cromossomo == "CHR17" or qual_cromossomo == "Chr17") and qual_posição >=41196312 and qual_posição <= 41277500:
+    print("Sim, este é o gene BRCA1")
+else:
+    print("Este não é o gene BRCA1")
+
 ----------------------------------
 
 Digite o cromossomo: chr17
