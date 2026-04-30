@@ -78,4 +78,4 @@ if qual_cromossomo == "chr17":
         print("Genoma não reconhecido")
 
 else:
-    print("Este não é o gene BRCA1")
+    print("Este não é o gene BRCA1") 
