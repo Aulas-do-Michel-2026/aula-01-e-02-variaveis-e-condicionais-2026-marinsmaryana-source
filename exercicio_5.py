@@ -55,6 +55,8 @@ Resposta:
 Não
 
 """
+
+
 qual_cromossomo = str(input("Insira o nº do cromossomo: "))
 qual_genoma = str(input("Insira o genoma de referência: "))
 qual_posição = int(input("Insira a posição genômica: "))
@@ -65,7 +67,7 @@ if qual_cromossomo == "chr17":
         if 41196312 <= qual_posição <= 41277500:
             pass
         else:
-            print("Sim é o gene BRCA1")
+            print("Não é o gene BRCA1")
             
     elif qual_genoma == "hg38":
         if 43044295 <= qual_posição <= 43125483:
@@ -78,3 +80,5 @@ if qual_cromossomo == "chr17":
 
 else:
     print("Este não é o gene BRCA1")
+
+
