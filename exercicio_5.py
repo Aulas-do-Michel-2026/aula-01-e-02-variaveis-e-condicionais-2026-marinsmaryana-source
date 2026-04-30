@@ -55,30 +55,20 @@ Resposta:
 Não
 
 """
+cromossomo = input("Digite o cromossomo: ")
+posicao = int(input("Digite a posição: "))
+genoma = input("Digite o genoma de referência: ")
 
-
-qual_cromossomo = str(input("Insira o nº do cromossomo: "))
-qual_genoma = str(input("Insira o genoma de referência: "))
-qual_posição = int(input("Insira a posição genômica: "))
-
-if qual_cromossomo == "chr17":
+if cromossomo == "chr17":
     
-    if qual_genoma == "hg19":
-        if 41196312 <= qual_posição <= 41277500:
-            pass
-        else:
-            print("Não é o gene BRCA1")
-            
-    elif qual_genoma == "hg38":
-        if 43044295 <= qual_posição <= 43125483:
-            pass
-        else:
-            print("Não  é o gene BRCA1")
-    
+    if genoma == "hg19" and 41196312 <= posicao <= 41277500:
+        print("Sim")
+        
+    elif genoma == "hg38" and 43044295 <= posicao <= 43125483:
+        print("Sim")
+        
     else:
-        print("Genoma não reconhecido")
+        print("Não")
 
 else:
-    print("Este não é o gene BRCA1")
-
-
+    print("Não")
