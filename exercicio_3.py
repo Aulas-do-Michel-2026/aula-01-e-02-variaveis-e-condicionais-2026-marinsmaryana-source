@@ -17,3 +17,12 @@ Digite um número:
 
 Dica: Lembre do comando de resto da divisão inteira!
 """
+
+receber_numero = int(input("Digite um número inteiro: "))
+
+calcular_resto = receber_numero % 2
+
+if calcular_resto == 0:
+    print("Este número é par")
+else:
+    print("Este número é ímpar")
